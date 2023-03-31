@@ -79,8 +79,8 @@ $.ajax(settings).done(function (response) {
     const obj = response;
     const temp = JSON.stringify(obj["current"]["temp_c"]);
     const loc = JSON.stringify(obj["location"]["name"])
-    //document.getElementById("temp").innerHTML = temp;
-    //document.getElementById("location").innerHTML=loc;
+    document.getElementById("temp").innerHTML = temp;
+    document.getElementById("location").innerHTML=loc;
     // console.log(obj);
 
 });
